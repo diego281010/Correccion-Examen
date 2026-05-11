@@ -33,6 +33,9 @@ public class Main {
         switch (opcion) {
             case 1:
                 Dron d1 = new DronLiviano();
+                System.out.println("============INFORMACIÓN============\n");
+                d1.mostrarInfo();
+
                 d1.setCodigo(codigo);
                 d1.setModelo(modelo);
                 d1.setDistanciaKm(distancia);
